@@ -156,6 +156,3 @@ if uploaded_file:
         st.error(f"Error al procesar el archivo: {e}")
 else:
     st.info("Por favor, sube un archivo CSV desde la barra lateral.")
-# Pie de página
-st.markdown("---")
-st.markdown("**📊 Aplicación desarrollada con Streamlit** - Estilo personalizado para mayor claridad.")
